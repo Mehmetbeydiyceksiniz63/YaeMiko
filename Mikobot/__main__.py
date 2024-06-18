@@ -83,7 +83,7 @@ async def ai_handler_callback(update: Update, context: ContextTypes.DEFAULT_TYPE
                         ),
                     ],
                     [
-                        InlineKeyboardButton("» 𝙃𝙊𝙈𝙀 «", callback_data="Miko_back"),
+                        InlineKeyboardButton(" ANA MENÜ «", callback_data="Miko_back"),
                     ],
                 ],
             ),
@@ -469,10 +469,10 @@ async def Miko_about_callback(update: Update, context: ContextTypes.DEFAULT_TYPE
                         InlineKeyboardButton(
                             text="ABOUT", callback_data="Miko_support"
                         ),
-                        InlineKeyboardButton(text="COMMAND", callback_data="help_back"),
+                        InlineKeyboardButton(text="komutlar", callback_data="help_back"),
                     ],
                     [
-                        InlineKeyboardButton(text="INSIDER", callback_data="insider_"),
+                        InlineKeyboardButton(text="içerden", callback_data="insider_"),
                     ],
                     [
                         InlineKeyboardButton(text="◁", callback_data="Miko_back"),
@@ -553,7 +553,7 @@ async def get_help(update: Update, context: ContextTypes.DEFAULT_TYPE):
                     ],
                     [
                         InlineKeyboardButton(
-                            text="OPEN HERE",
+                            text="LİNK",
                             callback_data="help_back",
                         )
                     ],
