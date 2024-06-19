@@ -83,7 +83,7 @@ async def ai_handler_callback(update: Update, context: ContextTypes.DEFAULT_TYPE
                         ),
                     ],
                     [
-                        InlineKeyboardButton(" ANA MENÜ «", callback_data="Miko_back"),
+                        InlineKeyboardButton("🥀 ANA MENÜ 🥀«", callback_data="Miko_back"),
                     ],
                 ],
             ),
